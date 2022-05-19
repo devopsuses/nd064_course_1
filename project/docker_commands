@@ -2,7 +2,7 @@
 # TODO: docker build -t python-techtrends .
 
 ## Docker commands used to run the application
-# TODO: docker run -d -p 3111:3111 python-techtrends
+# TODO: docker run -d -p 7111:3111 python-techtrends
 
 ## Docker commands used to get the application logs
 # TODO: docker container ls
