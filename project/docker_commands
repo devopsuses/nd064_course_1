@@ -5,7 +5,8 @@
 # TODO: docker run -d -p 3111:3111 python-techtrends
 
 ## Docker commands used to get the application logs
-# TODO: insert the docker logs command
+# TODO: docker container ls
+# TODO: docker logs 2ab2b644bd56
 
 ## Logs from the container running the TechTrends application
 # TODO: paste logs from the Docker container 
