@@ -1,8 +1,6 @@
-## MOVE THIS FILE to `.github/workflows/docker-build.yaml` TO EXECUTE IT
-
 # This is a basic workflow to help you get started with Actions
 
-name: Docker Build and Push
+name: TechTrends - Package with Docker
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
