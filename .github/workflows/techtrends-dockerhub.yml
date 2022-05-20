@@ -6,9 +6,9 @@ name: TechTrends - Package with Docker
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -38,8 +38,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: .
-          file: ./Dockerfile
+          context: ./project
+          file: ./project/techtrends/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: pixelpotato/python-helloworld:latest
+          tags: repo22/python-techtrends:latest
