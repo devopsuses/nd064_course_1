@@ -40,7 +40,7 @@ def index():
 def post(post_id):
     post = get_post(post_id)
     if post is None:
-        app.logger.info('404 page')
+        app.logger.info('404 page is retrieved')
         return render_template('404.html'), 404
     else:
         connection = get_db_connection()
@@ -53,7 +53,7 @@ def post(post_id):
 # Define the About Us page
 @app.route('/about')
 def about():
-    app.logger.info('about us')
+    app.logger.info('about us page is retrieved')
     return render_template('about.html')
 
 # Define the post creation functionality
