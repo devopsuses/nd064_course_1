@@ -9,7 +9,7 @@
 # TODO: docker logs 2ab2b644bd56
 
 ## Logs from the container running the TechTrends application
-# TODO: paste logs from the Docker container 
+# TODO:  paste logs from the Docker container 
  * Serving Flask app 'app' (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
